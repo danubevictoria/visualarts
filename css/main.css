@@ -1,0 +1,202 @@
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #5f5f5f;
+}
+
+nav {
+	margin: 0 50px;
+}
+
+.fa-search {
+	color: #222222;
+}
+
+.top-li, 
+.comment-li, 
+.post-comment,
+.footer-li,
+.footer-li-desc {
+	display: inline;
+}
+
+.top-a, 
+.comment-link, 
+.post-comment, 
+.footer-article-link,
+.footer-desc-link {
+	text-decoration: none;
+}
+
+.top-a:visited, 
+.comment-link:visited, 
+.post-comment:visited,
+.footer-article-link:visited,
+.footer-desc-link:visited {
+	color: #000000;
+}
+
+#top-li-header, 
+.footer-article-link {
+	float: left;
+	font-weight: bold;
+}
+
+#top-li-search {
+	float: right;
+}
+
+.top-li-input {
+	border: none;
+}
+
+.noah-div {
+	vertical-align: top;
+    text-align: center;
+    width: 120px;
+    position: relative;
+    top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.noah {
+	border-radius: 5000px;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: 10px;
+}
+
+.noah-header {
+    margin: 3% 0;
+    color: #222222;
+}
+
+.header {
+	font-family: 'Lora';
+	text-align: center;
+	font-size: 40px;
+	color: #242424;
+	line-height: 60px;
+}
+
+.date {
+	font-size: 20px;
+}
+
+.post, .quote, .quoted {
+	font-size: 20px;
+	width: 60%;
+	margin: 50px auto;
+	text-align: left;
+	line-height: 35px;
+	font-size: 16px;
+}
+
+hr {
+	border: 1px solid #c79852;
+	margin: 3% auto;
+	width: 7%;
+}
+
+.quote {
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 30px;
+	color: #565656;
+	text-align: center;
+	font-weight: bold;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.quoted {
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	color: #565656;
+	padding: 0;
+}
+
+.chairs {
+	display: inline;
+}
+
+.chair-img {
+	vertical-align: top;
+}
+
+.fa-heart {
+	color: #e3654f;
+}
+
+.comment {
+	width: 60%;
+	height: 100px;
+	border-color: #e5e5e5;
+	border-radius: 5px;
+	box-shadow: none;
+	font-family: 'Lato', sans-serif;
+	padding: 10px;
+}
+
+.comment-links {
+	width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 12px;
+}
+
+.comment-li {
+	float: left;
+}
+
+.comment-link {
+	padding: 10px;
+	color: #565656;
+}
+
+.post-comment {
+	float: right;
+}
+
+footer {
+	height: 100px;
+	background-color: #f8f9fd;
+	padding: 30px;
+	margin: 40px 0;
+}
+
+.previous {
+	float: left;
+	width: 200px;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.next {
+	float: right;
+	width: 200px;
+	text-align: right;
+	padding-right: 120px;
+}
+
+.footer-article-links {
+	width: 65%;
+	margin: 0 auto;
+	position: relative;
+    top: 40px;
+}
+
+.footer-desc-link {
+	display: inline-block;
+	margin: 20px 0;
+	width: 300px;
+	font-weight: normal;
+}
+
+.footer-article-link {
+	vertical-align: bottom;
+}
